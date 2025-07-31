@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Erro ao acessar o sistema - WMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" href="../img/logo.png" />
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="../img/logo.png" alt="Logo da Lufiara" class="logo" />
+            <h1>Problema com Alocação de Produto</h1>
+        </div>
+    </header>
+
+    <main>
+        <p><strong>Sintoma:</strong> Mensagem de erro informando que a quantidade a ser alocada é superior ao
+            disponível, mesmo tendo unidades para alocar.</p>
+
+        <div>
+            <img src="../img/problema_alocacao/problema_alocacao.jpeg" alt="Exemplo de erro" class="ilustracao" />
+        </div>
+
+        <p><strong>Causa provável:</strong></p>
+        <ul class="lista-passos">
+            <li>A Nota Fiscal da entrada anterior não foi lançada no ERP.</li>
+            <li>Divergência entre o estoque físico e o estoque cadastrado no sistema.</li>
+            <li>Produtos reservados por outro processo ou pedido ainda em aberto.</li>
+            <li>Erro de sincronização entre o WMS e o ERP.</li>
+        </ul>
+        <p><strong>Solução:</strong>Consultar se todas as NFs de entrada foram corretamente lançadas no sistema. Em
+            seguida, se necessário, realizar uma contagem física para confirmar o saldo disponível. Se necessário,
+            ajustar o estoque
+            via inventário ou reportar para o setor responsável.</p>
+
+        <br>
+
+        <p class="dica"><strong>Dica:</strong>Sempre verifique com o responsável pela NF se ela foi efetivamente lançada
+            e autorizada. Além disso, consulte o Relatório de Divergências no WMS para validar a posição e a quantidade
+            do item.</p>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <a href="../index.html" class="voltar">← Voltar para o manual</a>
+    </main>
+
+    <footer>
+        <div class="problema_p">
+            Lufiara Ecom LTDA • Última atualização: 31/07/2025
+        </div>
+    </footer>
+</body>
+
+</html>

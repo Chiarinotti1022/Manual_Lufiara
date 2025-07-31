@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Erro ao acessar o sistema - WMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" href="../img/logo.png" />
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="../img/logo.png" alt="Logo da Lufiara" class="logo" />
+            <h1>Problema com Etiqueta</h1>
+        </div>
+    </header>
+
+    <main>
+        <p><strong>Sintoma:</strong> Após a separação, falha nas etiquetas de NF e postagem.</p>
+        <p><strong>Causa provável:</strong> A Nota Fiscal pode não ter sido emitida corretamente ou não foi sincronizada
+            com o sistema de geração de etiquetas. Também pode haver falha de comunicação entre o ERP, o módulo fiscal
+            ou a transportadora.</p>
+        <p><strong>Solução:</strong></p>
+        <ul class="lista-passos">
+            <li>Confirme se a NF foi gerada e autorizada no ERP.</li>
+            <li>Acesse o módulo de expedição e tente reemitir a etiqueta manualmente.</li>
+            <li>Caso a opção esteja indisponível ou ocorra erro, registre o número do pedido e envie para o suporte
+                interno.</li>
+            <li>Verifique também se o serviço de impressão (caso local) está ativo e sincronizado.</li>
+        </ul>
+
+        <br>
+
+        <p><strong>Passo a Passo Solução:</strong></p>
+        <div>
+            <img src="../img/problema_etiqueta/problema_etiqueta_1.png" alt="Exemplo de erro" class="ilustracao" />
+            <p>Na área de trabalho, abrir o aplicativo do HUB.</p>
+            <img src="../img/problema_etiqueta/problema_etiqueta_2.png" alt="Exemplo de erro" class="ilustracao" />
+            <p>Fazer Login no seu usuário.</p>
+            <img src="../img/problema_etiqueta/problema_etiqueta_3.png" alt="Exemplo de erro" class="ilustracao" />
+            <p>Selecionar os "3 pontos" no lado superior esquerdo.</p>
+            <img src="../img/problema_etiqueta/problema_etiqueta_4.png" alt="Exemplo de erro" class="ilustracao" />
+            <p>Entrar na opção de vendas.</p>
+            <img src="../img/problema_etiqueta/problema_etiqueta_5.png" alt="Exemplo de erro" class="ilustracao" />
+            <p>Aplicar os filtros necessários: "Aguardando conferência" e "Não exibir pedidos fulfillment".</p>
+            <img src="../img/problema_etiqueta/problema_etiqueta_6.png" alt="Exemplo de erro" class="ilustracao" />
+            <p>Analisar o status que o pedido se encontra.</p>
+            <img src="../img/problema_etiqueta/problema_etiqueta_7.png" alt="Exemplo de erro" class="ilustracao" />
+            <img src="../img/problema_etiqueta/problema_etiqueta_8.png" alt="Exemplo de erro" class="ilustracao" />
+            <p>Principais Status:</p>
+            <ul class="lista-passos">
+                <li><strong>Verde:</strong> Finalizado/Correto.</li>
+                <li><strong>Vermelho:</strong> Negado/Problema.</li>
+                <li><strong>Amarelo:</strong> Aprovado/Certo.</li>
+                <li><strong>Meia Amarela:</strong> Em Processamento.</li>
+            </ul>
+        </div>
+
+        <br>
+
+        <p class="dica"><strong>Dica:</strong>Se o problema persistir em vários pedidos, pode ser um travamento na fila
+            de integração. Tente reiniciar o serviço responsável ou aguarde o ciclo de atualização automática.</p>
+
+        <a href="../index.html" class="voltar">← Voltar para o manual</a>
+    </main>
+
+    <footer>
+        <div class="problema_p">
+            Lufiara Ecom LTDA • Última atualização: 31/07/2025
+        </div>
+    </footer>
+</body>
+
+</html>

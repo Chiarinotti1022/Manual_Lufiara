@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Erro ao acessar o sistema - WMS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="icon" type="image/png" href="../img/logo.png" />
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <img src="../img/logo.png" alt="Logo da Lufiara" class="logo" />
+            <h1>Desconexão Inesperada da Conta</h1>
+        </div>
+    </header>
+
+    <main>
+        <p><strong>Sintoma:</strong> O sistema realiza o logout automático mesmo com apenas uma aba ativa, encerrando a
+            sessão do usuário de forma abrupta.</p>
+
+        <div>
+            <img src="../img/desconexao_inesperada/desconexao_inesperada.png" alt="Exemplo de erro"
+                class="ilustracao_desconexao" />
+        </div>
+
+        <p><strong>Causa provável:</strong></p>
+        <ul class="lista-passos">
+            <li>Timeout da sessão por inatividade, mesmo que mínima.</li>
+            <li>Erro de autenticação ou falha no token de segurança.</li>
+            <li>Instabilidade momentânea no servidor ou perda de sincronização.</li>
+            <li>Perda de conexão com a internet ou oscilação no Wi-Fi.</li>
+            <li>Acesso simultâneo à mesma conta em outro dispositivo (sobrescrevendo a sessão atual);</li>
+        </ul>
+        <p><strong>Solução:</strong></p>
+        <ul class="lista-passos">
+            <li>Verifique a qualidade da conexão Wi-Fi.</li>
+            <li>Evite múltiplas sessões simultâneas com o mesmo login em dispositivos diferentes.</li>
+            <li>Refaça o login e, caso o erro continue, entre em contato com o suporte interno com data, hora e nome do
+                usuário afetado.</li>
+        </ul>
+
+        <br>
+
+        <p class="dica"><strong>Dica:</strong>Esteja atento às possíveis causas, pois somente a identificação correta do
+            problema permitirá aplicar a solução mais adequada. Caso as falhas persistam, entre em contato com o
+            responsável pelo suporte técnico.</p>
+
+        <a href="../index.html" class="voltar">← Voltar para o manual</a>
+    </main>
+
+    <footer>
+        <div class="problema_p">
+            Lufiara Ecom LTDA • Última atualização: 31/07/2025
+        </div>
+    </footer>
+</body>
+
+</html>
