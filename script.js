@@ -32,7 +32,7 @@ const problemas = [
 ];
 
 
-const porPagina = 5;
+const porPagina = 6;
 let paginaAtual = 1;
 
 const lista = document.getElementById("lista-problemas");
